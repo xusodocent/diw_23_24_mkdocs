@@ -1,0 +1,45 @@
+site_name: DISSENY D'INTERFÍCIES WEB - 2DAW - Xuso Ortí I Josep Magraner
+nav:
+  - Presentació: presentació.md
+  - UD1:
+    - UD0 Eines de Fonaments d'Interfícies: DIW_UD1_Fonaments_Interfícies_tema.md
+    - Pràctiques Unitat:
+      - UD1 Pràctica: DIW_UD1_Fonaments_Interfícies_Pr.md
+  - UD1:
+    - UD1 Introducció a CSS: DIW_UD2_introducció_css.md
+    - Pràctiques Unitat:
+      - UD1 Pràctica Maquetació: DIW_UD2_Prac_CSS.md
+theme:
+  name: material
+  palette:
+    primary: purple
+  features:
+    - navigation.tabs
+    - content.code.copy
+  logo: img/logocap.png
+  theme:
+    icon:
+      admonition:
+        note: fontawesome/solid/note-sticky
+        abstract: fontawesome/solid/book
+        info: fontawesome/solid/circle-info
+        tip: fontawesome/solid/bullhorn
+        success: fontawesome/solid/check
+        question: fontawesome/solid/circle-question
+        warning: fontawesome/solid/triangle-exclamation
+        failure: fontawesome/solid/bomb
+        danger: fontawesome/solid/skull
+        bug: fontawesome/solid/robot
+        example: fontawesome/solid/flask
+        quote: fontawesome/solid/quote-left
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
