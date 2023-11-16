@@ -24,7 +24,7 @@ header-includes:
 
 ## Maquetació web
 
-Partint dels arxius que es proporcionen a la plataforma, confecciona el `CSS` per tal d'obtindre un resultat com el següent:
+Partint dels [arxius](../recursos/ud1/curso.zip) que es proporcionen a la plataforma, confecciona el `CSS` per tal d'obtindre un resultat com el següent:
 
 ![Resultat a obtindre](img/resultat_prac.jpg)
 

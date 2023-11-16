@@ -364,7 +364,9 @@ Unitats relatives a la pantalla:
 
 ## 4. Propietats
 
-> El número de propietats `CSS` és enorme i resulta impossible d'enumerar en un document. Per tant mostrarem les més utilitzades però tot i això caldrà que busqueu pel vostre compte.
+!!! danger "CSS té moltes propietats"
+
+    El número de propietats `CSS` és enorme i resulta impossible d'enumerar en un document. Per tant mostrarem les més utilitzades però tot i això caldrà que busqueu pel vostre compte.
 
 ### 4.1 Textos
 
@@ -479,7 +481,9 @@ p {
 
 ```
 
-> Repasa [el tutorial](https://www.w3schools.com/css/css_text.asp) de formatació de textos.
+!!! example "Tutorial extra"
+
+    Repasa [el tutorial](https://www.w3schools.com/css/css_text.asp) de formatació de textos.
 
 ### 4.2 Fonts
 
@@ -515,7 +519,9 @@ font-family: Especifica la família de tipus de lletra que es vol utilitzar. Pot
 
 Aquestes propietats són fonamentals per formatejar i estilitzar text en una pàgina web, i permeten ajustar la tipografia de manera precisa per aconseguir l'aparença desitjada. Pots utilitzar aquestes propietats en combinació per obtenir resultats de disseny específics.
 
-> Repasa [el tutorial](https://www.w3schools.com/css/css_font.asp) de fonts.
+!!! example "Tutorial extra"
+
+    Repasa [el tutorial](https://www.w3schools.com/css/css_font.asp) de fonts.
 
 ### 4.3 Taules
 
@@ -567,7 +573,9 @@ th {
 }
 
 ```
-> Repasa el [tutorial](https://www.w3schools.com/css/css_table.asp) de taules.
+!!! example "Tutorial extra"
+
+    Repasa el [tutorial](https://www.w3schools.com/css/css_table.asp) de taules.
 
 ### 4.4 Colors
 
@@ -619,7 +627,9 @@ box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Ombra de 2px a la dreta i a baix 
 
 ```
 
-> Repasa el [tutorial de bordes](https://www.w3schools.com/css/css_border.asp).
+!!! example "Tutorial extra"
+
+    Repasa el [tutorial de bordes](https://www.w3schools.com/css/css_border.asp).
 
 ### 4.6 Altres propietats.
 
@@ -675,7 +685,9 @@ Aquestes propietats són fonamentals per aconseguir un posicionament precís i f
 
 ![Propietats de flotació](img/floating.png)
 
-> Consulta el [tutorial de posicionament](https://www.w3schools.com/css/css_positioning.asp)
+!!! example "Tutorial extra"
+
+    Consulta el [tutorial de posicionament](https://www.w3schools.com/css/css_positioning.asp)
 
 ## 7. FLEX
 
@@ -709,7 +721,9 @@ Amb Flexbox, és possible crear dissenys més senzills i reactius sense haver de
 
 ![Xulleta Flex](img/flex_xulla.png)
 
-> Consulta el [tutorial il·lustrat](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+!!! example "Tutorial extra"
+
+    Consulta el [tutorial il·lustrat](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## 8. Grid
 
@@ -751,8 +765,10 @@ Principals propietats i conceptes relacionats amb CSS Grid:
 
 CSS Grid proporciona una forma més avançada i flexible de crear dissenys comparat amb altres mètodes com Flexbox o el model de caixa. Amb la seva capacitat per organitzar elements en files i columnes, facilita la creació d'interfícies complexes i pot ser un recurs molt útil per al disseny web modern.
 
-> `Grid` és un sistema bastant extens com per a incloure-lo en el document, repassa per tant el [tutorial de Grid](https://www.w3schools.com/css/css_grid.asp).
+!!! example "Tutorial extra"
 
-> Revisa també el següent [tutorial il·lustrat](https://css-tricks.com/snippets/css/complete-guide-grid/)
+    `Grid` és un sistema bastant extens com per a incloure-lo en el document, repassa per tant el [tutorial de Grid](https://www.w3schools.com/css/css_grid.asp).
+
+    Revisa també el següent [tutorial il·lustrat](https://css-tricks.com/snippets/css/complete-guide-grid/)
 
 
