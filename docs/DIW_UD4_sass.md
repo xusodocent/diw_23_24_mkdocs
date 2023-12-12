@@ -487,3 +487,170 @@ Les directrius `@extend` i `@mixin` són dues característiques claus de Sassy C
      ```
 
 En resum, `@extend` és útil per compartir conjunts complets de propietats CSS entre selectors, mentre que `@mixin` és útil per agrupar i reutilitzar blocs de codi CSS més petits. Cada un té el seu ús específic i es pot utilitzar segons les necessitats del teu projecte.
+
+## Mapes de colors
+
+En SASS (Syntactically Awesome Stylesheets), un "mapa de colors" es refereix a l'ús de mapes per gestionar i organitzar colors dins del teu codi de full d'estils. Els mapes de colors permeten crear paletes de colors, accedir fàcilment als colors en diferents llocs i fer canvis globalment de manera més senzilla.
+
+Aquí tens un exemple senzill de com podries utilitzar un mapa de colors en SASS:
+
+```scss
+// Definició d'un mapa de colors
+$colors: (
+  primary: #3498db,
+  secondary: #2ecc71,
+  accent: #e74c3c,
+);
+
+// Utilització dels colors
+body {
+  background-color: map-get($colors, primary);
+  color: map-get($colors, secondary);
+}
+
+.button {
+  background-color: map-get($colors, accent);
+  color: #fff;
+}
+```
+
+En aquest exemple:
+
+- Es defineix un mapa de colors anomenat `$colors` amb claus com `primary`, `secondary` i `accent`, i valors com els colors corresponents.
+- A continuació, es fa servir `map-get` per accedir als colors definits al mapa. Això fa que el codi sigui més llegible i fàcil de mantenir, ja que pots utilitzar noms significatius per als colors en lloc de valors hexadecimals o RGB.
+- Aquesta és només una manera de gestionar colors amb mapes en SASS. Podries tenir més propietats en el teu mapa, com ara mides de font, i utilitzar-les en diversos llocs del teu codi.
+
+L'ús de mapes de colors en SASS pot millorar la modularitat i la mantenibilitat del teu codi de full d'estils, especialment en projectes més grans on la consistència dels colors és crucial.
+
+## Estructures de control
+
+### if
+
+```scss
+$color: blue;
+.element {
+     @if $color == blue {
+       background-color: $color;
+     } @else {
+       background-color: red;
+     }
+}
+```
+
+Resultat...
+
+```css
+.element {
+    background-color: blue;
+}
+```
+
+### for
+
+```scss
+@for $i from 1 through 3 {
+     .element-#{$i} {
+       font-size: 10px * $i;
+     }
+}
+```
+
+Resultat...
+
+```css
+.element-1 {
+    font-size: 10px;
+}
+.element-2 {
+    font-size: 20px;
+}
+.element-3 {
+    font-size: 30px;
+}
+```
+
+### each
+
+```scss
+$colors: red, green, blue;
+@each $color in $colors {
+     .element-#{$color} {
+       background-color: $color;
+     }
+}
+```
+
+Resultat...
+
+```css
+.element-red {
+    background-color: red;
+}
+.element-green {
+    background-color: green;
+}
+.element-blue {
+    background-color: blue;
+}
+```
+
+### while
+
+```scss
+$i: 1;
+@while $i < 4 {
+     .element-#{$i} {
+       width: 100px * $i;
+     }
+     $i: $i + 1;
+}
+```
+
+Resultat...
+
+```css
+.element-1 {
+    width: 100px;
+}
+.element-2 {
+    width: 200px;
+}
+.element-3 {
+    width: 300px;
+}
+```
+
+## Funcions predefinides
+
+SASS proporciona diverses funcions predefinides que pots utilitzar per realitzar diverses operacions mentre escriviu els teus estils. Algunes de les principals funcions predefinides de SASS inclouen:
+
+- **Operacions Matemàtiques:**
+    - `add($number1, $number2)`: Suma dos números.
+    - `subtract($number1, $number2)`: Resta dos números.
+    - `multiply($number1, $number2)`: Multiplica dos números.
+    - `divide($number1, $number2)`: Divideix dos números.
+
+- **Funcions de Colors:**
+    - `lighten($color, $amount)`: Aclareix un color.
+    - `darken($color, $amount)`: Fosquix un color.
+    - `saturate($color, $amount)`: Satura un color.
+    - `desaturate($color, $amount)`: Desatura un color.
+    - `mix($color1, $color2, $weight)`: Crea una mescla de dos colors.
+
+- **Funcions de Cadena:**
+    - `unquote($string)`: Elimina les cometes d'una cadena.
+    - `quote($string)`: Afegeix cometes a una cadena.
+
+- **Funcions de Llistes:**
+    - `length($list)`: Retorna la longitud d'una llista.
+    - `nth($list, $n)`: Retorna l'element en la posició especificada d'una llista.
+    - `join($list1, $list2, $separator)`: Uneix dues llistes amb un separador opcional.
+
+- **Funcions de Conversió:**
+    - `percentage($number)`: Converteix un nombre en un percentatge.
+    - `round($number)`: Arrodoneix un nombre.
+
+- **Funcions Miscel·lànies:**
+    - `type-of($value)`: Retorna el tipus d'un valor (com ara "number", "string", "color", etc.).
+    - `unit($number)`: Retorna la unitat d'un nombre.
+

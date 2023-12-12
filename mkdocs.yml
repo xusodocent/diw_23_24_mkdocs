@@ -17,7 +17,21 @@ nav:
   - Projecte 1a AV:
     - Enunciat: DIW_projecte_1a_av.md
   - UD4:
-    - Sass: DIW_UD4_sass.md
+    - Apunts del tema:
+      - Sass: DIW_UD4_sass.md
+    - Pràctiques del tema:
+      - Pràctica SASS: DIW_UD4_sass_pr.md
+    - Exemples codi:
+      - Exemples unitat: DIW_UD4_sass_exemples.md
+  - UD5:
+    - Apunts del tema:
+      - Bootstrap Intro: DIW_UD5_bootstrap_intro.md
+      - Bootstrap Rejilla: DIW_UD5_bootstrap_rejilla.md
+      - Bootstrap Elements: DIW_UD5_bootstrap_elements.md
+    - Pràctiques del tema:
+      - Pràctica Bootstrap: DIW_UD5_bootstrap_pr.md
+    - Exemples codi:
+      - Exemples unitat: DIW_UD5_bootstrap_codis.md
 theme:
   language: ca
   name: material
