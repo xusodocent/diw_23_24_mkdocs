@@ -32,6 +32,10 @@ nav:
       - Pràctica Bootstrap: DIW_UD5_bootstrap_pr.md
     - Exemples codi:
       - Exemples unitat: DIW_UD5_bootstrap_codis.md
+  - UD6:
+    - Apunts del tema:
+      - Multimedia: DIW_UD6_multimedia.md
+    - Exemples de codi: DIW_UD6_exemples_codi.md
 theme:
   language: ca
   name: material
