@@ -42,3 +42,9 @@ Serà una pàgina destinada a incorporar contingut multimèdia (videos i audios)
 ### Accesibilitat i usabilitat
 
 Afegir millores al vostre projecte en termes d'accesibilitat i usabilitat, com per exemple l'ús de `Aria` o altres millores que implementeu.
+
+### Disseny Responsive
+
+!!! danger "Obligatori"
+
+    És imprescindible que tota la pàgina siga responsive.
