@@ -47,4 +47,4 @@ Afegir millores al vostre projecte en termes d'accesibilitat i usabilitat, com p
 
 !!! danger "Obligatori"
 
-    És imprescindible que tota la pàgina siga responsive.
+    És imprescindible que tota la pàgina siga responsive!
