@@ -36,6 +36,8 @@ nav:
     - Apunts del tema:
       - Multimedia: DIW_UD6_multimedia.md
     - Exemples de codi: DIW_UD6_exemples_codi.md
+  - Projecte 2av:
+    - Enunciat: DIW_projecte_2av.md
 theme:
   language: ca
   name: material
